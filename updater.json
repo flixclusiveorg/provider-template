@@ -1,0 +1,25 @@
+[
+    {
+        "repositoryUrl": "https://github.com/your_username/myRepository",
+        "status": "Working",
+        "language": {
+            
+        },
+        "authors": [
+            {
+                "name": "MyUsername"
+            },
+            {
+                "discordId": 123,
+                "name": "SecondAuthor"
+            }
+        ],
+        "version": "1.0.0",
+        "pluginType": {
+            
+        },
+        "buildUrl": "https://raw.githubusercontent.com/your_username/myRepository/builds/MyFirstProvider.flx",
+        "changelog": "Some changelog:\n\nTODO: Add your changes here...",
+        "name": "MyFirstProvider"
+    }
+]
