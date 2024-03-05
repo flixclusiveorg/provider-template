@@ -14,12 +14,14 @@
                 "name": "SecondAuthor"
             }
         ],
-        "version": "1.0.0",
         "pluginType": {
             
         },
+        "versionCode": 10000,
+        "description": "My first provider!",
         "buildUrl": "https://raw.githubusercontent.com/your_username/myRepository/builds/MyFirstProvider.flx",
         "changelog": "Some changelog:\n\nTODO: Add your changes here...",
+        "versionName": "1.0.0",
         "name": "MyFirstProvider"
     }
 ]
