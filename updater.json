@@ -1,22 +1,21 @@
 [
     {
         "repositoryUrl": "https://github.com/your_username/myRepository",
+        "providerType": {
+            "type": "Movies, TV Shows, etc."
+        },
         "status": "Working",
         "language": {
-            
+            "languageCode": "Multiple"
         },
         "authors": [
             {
                 "name": "MyUsername"
             },
             {
-                "discordId": 123,
                 "name": "SecondAuthor"
             }
         ],
-        "pluginType": {
-            
-        },
         "versionCode": 10000,
         "description": "My first provider!",
         "buildUrl": "https://raw.githubusercontent.com/your_username/myRepository/builds/MyFirstProvider.flx",
