@@ -1,6 +1,6 @@
 [
     {
-        "repositoryUrl": "https://github.com/your_username/myRepository",
+        "repositoryUrl": "https://github.com/Flixclusive/providers-template",
         "providerType": {
             "type": "Movies, TV Shows, etc."
         },
@@ -10,17 +10,49 @@
         },
         "authors": [
             {
-                "name": "MyUsername"
+                "name": "Flixclusive",
+                "socialLink": "http://github.com/Flixclusive"
+            },
+            {
+                "name": "FirstAuthor"
             },
             {
                 "name": "SecondAuthor"
             }
         ],
         "versionCode": 10000,
-        "description": "My first provider!",
-        "buildUrl": "https://raw.githubusercontent.com/your_username/myRepository/builds/MyFirstProvider.flx",
-        "changelog": "Some changelog:\n\nTODO: Add your changes here...",
+        "description": "A dummy provider that does nothing.",
+        "buildUrl": "https://raw.githubusercontent.com/Flixclusive/providers-template/builds/BasicDummyProvider.flx",
+        "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
-        "name": "MyFirstProvider"
+        "name": "BasicDummyProvider"
+    },
+    {
+        "repositoryUrl": "https://github.com/Flixclusive/providers-template",
+        "providerType": {
+            "type": "Movies, TV Shows, etc."
+        },
+        "status": "Working",
+        "language": {
+            "languageCode": "Multiple"
+        },
+        "authors": [
+            {
+                "name": "Flixclusive",
+                "socialLink": "http://github.com/Flixclusive"
+            },
+            {
+                "name": "FirstAuthor"
+            },
+            {
+                "name": "SecondAuthor"
+            }
+        ],
+        "versionCode": 10000,
+        "description": "A dummy provider that does nothing but uses WebView",
+        "buildUrl": "https://raw.githubusercontent.com/Flixclusive/providers-template/builds/BasicDummyWebViewProvider.flx",
+        "changelog": "TODO: Add your changes here...",
+        "versionName": "1.0.0",
+        "name": "BasicDummyWebViewProvider"
     }
 ]
