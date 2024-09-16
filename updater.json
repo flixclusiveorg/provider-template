@@ -1,6 +1,7 @@
 [
     {
-        "repositoryUrl": "https://github.com/Flixclusive/providers-template",
+        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
         },
@@ -10,25 +11,22 @@
         },
         "authors": [
             {
-                "name": "Flixclusive",
-                "socialLink": "http://github.com/Flixclusive"
-            },
-            {
-                "name": "FirstAuthor"
-            },
-            {
-                "name": "SecondAuthor"
+                "image": "http://github.com/flixclusiveorg.png",
+                "name": "flixclusiveorg",
+                "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
+        "id": "8f3d66495fcc81d",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
-        "buildUrl": "https://raw.githubusercontent.com/Flixclusive/providers-template/builds/BasicDummyProvider.flx",
+        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
         "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
         "name": "BasicDummyProvider"
     },
     {
-        "repositoryUrl": "https://github.com/Flixclusive/providers-template",
+        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "adult": false,
         "providerType": {
             "type": "Movies, TV Shows, etc."
         },
@@ -38,8 +36,9 @@
         },
         "authors": [
             {
-                "name": "Flixclusive",
-                "socialLink": "http://github.com/Flixclusive"
+                "image": "http://github.com/flixclusiveorg.png",
+                "name": "flixclusiveorg",
+                "socialLink": "http://github.com/flixclusiveorg"
             },
             {
                 "name": "FirstAuthor"
@@ -48,9 +47,10 @@
                 "name": "SecondAuthor"
             }
         ],
+        "id": "48c6b645274ef05",
         "versionCode": 10000,
-        "description": "A dummy provider that does nothing but uses WebView",
-        "buildUrl": "https://raw.githubusercontent.com/Flixclusive/providers-template/builds/BasicDummyWebViewProvider.flx",
+        "description": "A dummy provider (with WebView) that does nothing.",
+        "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
         "changelog": "TODO: Add your changes here...",
         "versionName": "1.0.0",
         "name": "BasicDummyWebViewProvider"
