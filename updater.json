@@ -16,7 +16,7 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "82dc3f9f0662e16",
+        "id": "c381c07848d9cfc",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
@@ -47,7 +47,7 @@
                 "name": "SecondAuthor"
             }
         ],
-        "id": "8395d608fbdfd32",
+        "id": "bf8564d2f1ac7dd",
         "versionCode": 10000,
         "description": "A dummy provider (with WebView) that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
