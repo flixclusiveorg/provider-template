@@ -16,13 +16,13 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "b8ee6a2305058b7",
+        "id": "prov-templ-dummy",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
-        "changelog": "TODO: Add your changes here...",
+        "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "BasicDummyProvider"
+        "name": "Test Provider"
     },
     {
         "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
@@ -39,20 +39,14 @@
                 "image": "http://github.com/flixclusiveorg.png",
                 "name": "flixclusiveorg",
                 "socialLink": "http://github.com/flixclusiveorg"
-            },
-            {
-                "name": "FirstAuthor"
-            },
-            {
-                "name": "SecondAuthor"
             }
         ],
-        "id": "0132b45fac249f0",
+        "id": "prov-templ-web-dummy",
         "versionCode": 10000,
-        "description": "A dummy provider (with WebView) that does nothing.",
+        "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
-        "changelog": "TODO: Add your changes here...",
+        "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "BasicDummyWebViewProvider"
+        "name": "WebView Test Provider"
     }
 ]
