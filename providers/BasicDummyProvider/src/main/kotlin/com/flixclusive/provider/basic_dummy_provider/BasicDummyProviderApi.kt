@@ -5,6 +5,7 @@ import com.flixclusive.model.provider.link.MediaLink
 import com.flixclusive.model.provider.ProviderCatalog
 import com.flixclusive.model.film.Film
 import com.flixclusive.model.film.FilmDetails
+import com.flixclusive.model.film.FilmMetadata
 import com.flixclusive.model.film.FilmSearchItem
 import com.flixclusive.model.film.SearchResponseData
 import com.flixclusive.model.film.common.tv.Episode
@@ -21,7 +22,7 @@ class BasicDummyProviderApi(
     provider: Provider
 ) : ProviderApi(client, provider) {
     override val baseUrl: String get() = super.baseUrl
-    override val testFilm: FilmDetails get() = super.testFilm
+    override val testFilm: FilmMetadata get() = super.testFilm
     override val catalogs: List<ProviderCatalog> get() = super.catalogs
     override val filters: FilterList get() = super.filters
 
@@ -32,12 +33,12 @@ class BasicDummyProviderApi(
         = super.getCatalogItems(catalog, page)
 
 
-    override suspend fun getFilmDetails(film: Film): FilmDetails
-        = super.getFilmDetails(film)
+    override suspend fun getMetadata(film: Film): FilmMetadata
+        = super.getMetadata(film)
 
     override suspend fun getLinks(
         watchId: String,
-        film: FilmDetails,
+        film: FilmMetadata,
         episode: Episode?,
         onLinkFound: (MediaLink) -> Unit
     ) = super.getLinks(watchId, film, episode, onLinkFound)

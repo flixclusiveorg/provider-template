@@ -1,9 +1,9 @@
 package com.flixclusive.provider.basic_dummy_webview_provider
 
 import android.content.Context
-import com.flixclusive.model.provider.link.MediaLink
-import com.flixclusive.model.film.FilmDetails
+import com.flixclusive.model.film.FilmMetadata
 import com.flixclusive.model.film.common.tv.Episode
+import com.flixclusive.model.provider.link.MediaLink
 import com.flixclusive.provider.webview.ProviderWebView
 
 class ProviderWebViewImpl(
@@ -21,7 +21,7 @@ class ProviderWebViewImpl(
 
     override suspend fun getLinks(
         watchId: String,
-        film: FilmDetails,
+        film: FilmMetadata,
         episode: Episode?,
         onLinkFound: (MediaLink) -> Unit
     ) = throw NotImplementedError()

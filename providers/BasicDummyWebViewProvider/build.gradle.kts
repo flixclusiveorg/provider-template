@@ -28,29 +28,48 @@ android {
     }
 }
 
+/*
+* BIG TIP: Just hover on a property and it should provide
+* the KDoc/information on what that property does.
+*
+* If there's no documentation popping up then just
+* re-download the source indices.
+* */
 flxProvider {
     // ====== Provider Information =======
-    adult.set(false)
-    // providerName.set("Test WebView Provider") <-- You can customize the name by uncommenting this one.
-    description.set("A dummy provider (with WebView) that does nothing.")
+    /**
+     * VERY IMPORTANT TO SET. Hover `id` property to see information.
+     */
+    id = "prov-templ-web-dummy"
+
+    adult = false
+    providerName = "WebView Test Provider" // <-- You can customize the name by uncommenting this one.
+    description = "A dummy provider that does nothing."
 
     versionMajor = 1
     versionMinor = 0
     versionPatch = 0
     versionBuild = 0
 
-    // Changelog of your plugin
-    changelog.set(
-        """
-        TODO: Add your changes here...
-        """.trimIndent()
-    ) // OPTIONAL
+    /**
+     * Changelog of your provider updates. This supports markdown
+     * */
+    changelog = """
+    # Header
+    ## Secondary header
+    ---
+    
+    List
+    - Item 1
+    - Item 2
+    - Item 3
+    """.trimIndent() // OPTIONAL
 
     /**
      * Add additional authors to this plugin
      * */
-    author("FirstAuthor")
-    author("SecondAuthor")
+    // author("FirstAuthor")
+    // author("SecondAuthor")
     // author( ... )
 
     /**
@@ -67,7 +86,7 @@ flxProvider {
      * - Language("en")
      *      > For specific languages only. NOTE: Use the language's short-hand code.
      */
-    language.set(Language.Multiple)
+    language = Language.Multiple
 
     /**
      * The main type that your provider supports.
@@ -78,7 +97,7 @@ flxProvider {
      * - ProviderType.Movies
      * - ProviderType(customType: String) // i.e., ProviderType("Anime")
      */
-    providerType.set(ProviderType.All)
+    providerType = ProviderType.All
 
     /**
      * The current status of this provider.
@@ -89,7 +108,7 @@ flxProvider {
      * - Status.Down
      * - Status.Working
      */
-    status.set(Status.Working)
+    status = Status.Working
     // ================
 
 
@@ -97,7 +116,7 @@ flxProvider {
     /**
      * Toggle this if this provider has its own resources.
      */
-    requiresResources.set(true)
+    requiresResources = true
 
     /**
      * Excludes this plugin from the updater,

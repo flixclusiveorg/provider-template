@@ -18,7 +18,7 @@ import okhttp3.OkHttpClient
  *
  * To create a provider, extend this class and override the necessary methods.
  *
- * @see [TODO: ADD DOCS LINK FOR PLUGIN CREATION !!!!!]
+ * @see <a href="https://flixclusiveorg.github.io/provider-docs/">Documentation</a>
  */
 @FlixclusiveProvider
 class BasicDummyProvider : Provider() {

@@ -28,13 +28,13 @@ class BasicDummyProviderApiUnitTest {
     @Test
     fun `test getFilmInfo for some_film_id returns non-empty film title`()
         = runTest {
-            // Arrange
-            val api = BasicDummyProviderApi(OkHttpClient(), provider)
+        // Arrange
+        val api = BasicDummyProviderApi(OkHttpClient(), provider)
 
-            // Act
-            val result = api.getFilmDetails(film = api.testFilm)
+        // Act
+        val result = api.getMetadata(film = api.testFilm)
 
-            // Assert
-            assert(result.title.isNotBlank())
-        }
+        // Assert
+        assert(result.title.isNotBlank())
+    }
 }
