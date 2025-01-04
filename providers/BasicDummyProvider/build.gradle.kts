@@ -18,16 +18,6 @@ dependencies {
 
 }
 
-android {
-    buildFeatures {
-        compose = true
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.3"
-    }
-}
-
 /*
 * BIG TIP: Just hover on a property and it should provide
 * the KDoc/information on what that property does.

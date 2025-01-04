@@ -2,7 +2,6 @@ package com.flixclusive.provider.basic_dummy_webview_provider
 
 import android.content.Context
 import com.flixclusive.model.film.Film
-import com.flixclusive.model.film.FilmDetails
 import com.flixclusive.model.film.FilmMetadata
 import com.flixclusive.model.film.FilmSearchItem
 import com.flixclusive.model.film.SearchResponseData

@@ -1,16 +1,15 @@
 package com.flixclusive.provider.basic_dummy_provider
 
-import com.flixclusive.provider.filter.FilterList
-import com.flixclusive.model.provider.link.MediaLink
-import com.flixclusive.model.provider.ProviderCatalog
 import com.flixclusive.model.film.Film
-import com.flixclusive.model.film.FilmDetails
 import com.flixclusive.model.film.FilmMetadata
 import com.flixclusive.model.film.FilmSearchItem
 import com.flixclusive.model.film.SearchResponseData
 import com.flixclusive.model.film.common.tv.Episode
+import com.flixclusive.model.provider.ProviderCatalog
+import com.flixclusive.model.provider.link.MediaLink
 import com.flixclusive.provider.Provider
 import com.flixclusive.provider.ProviderApi
+import com.flixclusive.provider.filter.FilterList
 import okhttp3.OkHttpClient
 
 /**
