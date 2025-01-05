@@ -16,7 +16,7 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "prov-templ-dummy",
+        "id": "4578e8406cfb4ee",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
@@ -41,7 +41,7 @@
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "prov-templ-web-dummy",
+        "id": "4dbbe60a133d499",
         "versionCode": 10000,
         "description": "A dummy provider that does nothing.",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
