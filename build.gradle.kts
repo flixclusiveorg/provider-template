@@ -15,7 +15,7 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
         // Flixclusive gradle plugin which makes everything work and builds providers
-        classpath("com.github.flixclusiveorg.core-gradle:core-gradle:1.2.3")
+        classpath("com.github.flixclusiveorg.core-gradle:core-gradle:1.2.5")
         // Kotlin support. Remove if you want to use Java
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21")
     }
@@ -29,11 +29,9 @@ allprojects {
     }
 }
 
-fun Project.flxProvider(configuration: FlixclusiveProviderExtension.() -> Unit)
-    = extensions.getFlixclusive().configuration()
+fun Project.flxProvider(configuration: FlixclusiveProviderExtension.() -> Unit) = extensions.getFlixclusive().configuration()
 
-fun Project.android(configuration: BaseExtension.() -> Unit)
-    = extensions.getByName<BaseExtension>("android").configuration()
+fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByName<BaseExtension>("android").configuration()
 
 subprojects {
     apply(plugin = "flx-provider")
