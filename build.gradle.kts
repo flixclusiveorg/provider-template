@@ -15,7 +15,7 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:8.7.3")
         // Flixclusive gradle plugin which makes everything work and builds providers
-        classpath("com.github.flixclusiveorg.core-gradle:core-gradle:1.2.5")
+        classpath("com.github.flixclusiveorg.core-gradle:core-gradle:1.2.6")
         // Kotlin support. Remove if you want to use Java
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.21")
     }
