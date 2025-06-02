@@ -33,7 +33,7 @@ jobs:
           java-version: 17
 
       - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
+        uses: android-actions/setup-android@v3.2.2
 
       # Change `**/**/build/*.flx` if you've changed the providers file structure.
       - name: Build Plugins
