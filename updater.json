@@ -1,52 +1,52 @@
 [
     {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
-        "adult": false,
-        "providerType": {
-            "type": "Movies, TV Shows, etc."
-        },
-        "status": "Working",
-        "language": {
-            "languageCode": "Multiple"
-        },
         "authors": [
             {
-                "image": "http://github.com/flixclusiveorg.png",
                 "name": "flixclusiveorg",
+                "image": "http://github.com/flixclusiveorg.png",
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "14a5037ac9553dd",
-        "versionCode": 10000,
-        "description": "A dummy provider that does nothing.",
+        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyProvider.flx",
         "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "Test Provider"
-    },
-    {
-        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
+        "versionCode": 10000,
         "adult": false,
+        "description": "A dummy provider that does nothing.",
+        "language": {
+            "languageCode": "Multiple"
+        },
+        "name": "Test Provider",
         "providerType": {
             "type": "Movies, TV Shows, etc."
         },
         "status": "Working",
-        "language": {
-            "languageCode": "Multiple"
-        },
+        "id": "14a5037ac9553dd"
+    },
+    {
         "authors": [
             {
-                "image": "http://github.com/flixclusiveorg.png",
                 "name": "flixclusiveorg",
+                "image": "http://github.com/flixclusiveorg.png",
                 "socialLink": "http://github.com/flixclusiveorg"
             }
         ],
-        "id": "407e8638eb9d50c",
-        "versionCode": 10000,
-        "description": "A dummy provider that does nothing.",
+        "repositoryUrl": "https://github.com/flixclusiveorg/providers-template",
         "buildUrl": "https://raw.githubusercontent.com/flixclusiveorg/providers-template/builds/BasicDummyWebViewProvider.flx",
         "changelog": "# Header\n## Secondary header\n---\n\nList\n- Item 1\n- Item 2\n- Item 3",
         "versionName": "1.0.0",
-        "name": "WebView Test Provider"
+        "versionCode": 10000,
+        "adult": false,
+        "description": "A dummy provider that does nothing.",
+        "language": {
+            "languageCode": "Multiple"
+        },
+        "name": "WebView Test Provider",
+        "providerType": {
+            "type": "Movies, TV Shows, etc."
+        },
+        "status": "Working",
+        "id": "407e8638eb9d50c"
     }
 ]
