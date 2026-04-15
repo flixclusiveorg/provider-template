@@ -25,7 +25,7 @@ class BasicDummyProvider : Provider() {
     @Composable
     override fun SettingsScreen() {
         // Create a custom component for code readability
-        ExampleSettingsScreen(resources = resources)
+        ExampleSettingsScreen()
     }
 
     override fun getApi(

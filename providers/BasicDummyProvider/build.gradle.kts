@@ -8,18 +8,28 @@ dependencies {
      * */
     // implementation( ... )
 
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
+    implementation(libs.core.stubs.provider)
+
     // Comment if not implementing own SettingsScreen
-    // No need to specify compose version explicitly
-    implementation("androidx.compose.material3:material3")
-    implementation("androidx.compose.foundation:foundation")
-    implementation("androidx.compose.ui:ui")
-    implementation("androidx.compose.runtime:runtime")
+    compileOnly(platform(libs.compose.bom))
+    compileOnly(libs.compose.material3)
+    compileOnly(libs.compose.foundation)
+    compileOnly(libs.compose.ui)
+    compileOnly(libs.compose.runtime)
     // ================= END: COMPOSE UI =================
 
+    testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+    testImplementation(libs.mockk)
+}
+
+android {
+    namespace = "com.flixclusive.provider.template.basic"
 }
 
 /*
-* BIG TIP: Just hover on a property and it should provide
+* BIG TIP: Just hover on a property, and it should provide
 * the KDoc/information on what that property does.
 *
 * If there's no documentation popping up then just

@@ -91,14 +91,16 @@ class BasicDummyProviderApi(
                     releaseDate = "2006",
                     providerId = provider.manifest.id,
                     homePage = "https://orange.blender.org/",
+                    totalSeasons = 1,
+                    totalEpisodes = 10,
                     seasons = listOf(
                         Season(
                             number = 1,
-                            name = "Season 1",
                             episodes = List(10) {
                                 Episode(
                                     id = "elephants-dream-s1e${it + 1}",
                                     title = "Episode ${it + 1}",
+                                    season = 1,
                                     number = it + 1,
                                 )
                             }

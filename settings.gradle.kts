@@ -1,3 +1,30 @@
+pluginManagement {
+    resolutionStrategy {
+        eachPlugin {
+            if (requested.id.id == "flx-provider") {
+                useModule("com.github.flixclusiveorg.core-gradle:core-gradle:${requested.version}")
+            }
+        }
+    }
+
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+        maven("https://jitpack.io")
+        mavenLocal() // <- For testing
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven("https://jitpack.io")
+    }
+}
+
 rootProject.name = "provider-template"
 
 /**
