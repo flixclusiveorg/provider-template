@@ -22,6 +22,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven("https://jitpack.io")
+        mavenLocal() // <- For testing
     }
 }
 
@@ -35,7 +36,6 @@ rootProject.name = "provider-template"
 * */
 include(
     "BasicDummyProvider",
-    "BasicDummyWebViewProvider",
     // "MySecondProvider",
 )
 

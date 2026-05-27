@@ -1,6 +1,6 @@
 import com.flixclusive.model.provider.Language
 import com.flixclusive.model.provider.ProviderType
-import com.flixclusive.model.provider.Status
+import com.flixclusive.model.provider.ProviderStatus
 
 dependencies {
     /*
@@ -19,9 +19,9 @@ dependencies {
     compileOnly(libs.compose.runtime)
     // ================= END: COMPOSE UI =================
 
-    testImplementation(libs.junit)
-    testImplementation(libs.kotlinx.coroutines.test)
-    testImplementation(libs.mockk)
+    testCompileOnly(libs.jsoup)
+    testCompileOnly(libs.okhttp)
+    testCompileOnly(libs.mockk)
 }
 
 android {
@@ -108,7 +108,7 @@ flxProvider {
      * - Status.Down
      * - Status.Working
      */
-    status = Status.Working
+    status = ProviderStatus.Working
     // ================
 
 
