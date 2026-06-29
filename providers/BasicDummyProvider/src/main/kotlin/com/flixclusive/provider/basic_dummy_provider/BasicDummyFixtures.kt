@@ -82,7 +82,7 @@ internal fun sampleMetadata(providerId: String, media: PartialMedia): MediaMetad
                 totalSeasons = 1,
                 totalEpisodes = 10,
                 seasons = listOf(
-                    Season(
+                    Season.Full(
                         id = "elephants-dream-s1",
                         title = "Season 1",
                         number = 1,
